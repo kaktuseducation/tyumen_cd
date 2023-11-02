@@ -5,6 +5,7 @@ body{
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    overflow: hidden
 }
 
 .header{
