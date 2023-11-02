@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     padding: 0;
     background-image: url("../img/main background.png"); 
     background-size: cover;
@@ -16,5 +15,6 @@ body{
 }
 
 .header{
+    margin: auto
     font-family: "Garamond";
 }
