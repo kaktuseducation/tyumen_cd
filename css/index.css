@@ -6,11 +6,3 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
-
-.header{
-    position: absolute;
-    background-image: url("../img/main line.png"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
