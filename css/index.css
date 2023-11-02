@@ -11,7 +11,7 @@ body{
 
 .header{
     position: absolute;
-    background-color: #d4a174; 
+    background: #d4a174; 
     background-width: device-width;
     background-length: device-length;
     background-repeat: no-repeat;
