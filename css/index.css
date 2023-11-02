@@ -7,7 +7,7 @@ body{
     background-attachment: fixed; 
 }
 
-.header{
+.button{
     position: absolute;
     background-image: url("../img/main line.png"); 
     background-size: cover;
