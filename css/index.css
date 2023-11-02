@@ -1,22 +1,28 @@
 body{
-    margin: 0;
-    padding: 0;
-    display: flex;
     align-content: center;
     align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    justify-content: flex-start;
+    margin: 0px;
+    width: 100vw;
     background-image: url("../img/main background.png"); 
-    width: device-width;
-    length: device-length;
-    background-repeat: repeat;
-    background-attachment: fixed; 
     overflow: hidden
 }
 
 .header{
-    position: absolute; 
-    width: device-width;
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    background: white;
     display: flex;
-    length: device-length;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    justify-content: flex-start;
+    margin: 0px;
+    width: 100vw;
 }
