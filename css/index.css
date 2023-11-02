@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("../img/main background.png"); 
-    background-wigth: device-wigth;
-    background-lenght: device-lenght;
+    background-width: device-width;
+    background-length: device-length;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     overflow: hidden
