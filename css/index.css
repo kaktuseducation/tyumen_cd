@@ -16,6 +16,7 @@ body{
     font-family: "Garamond";
     font-color: white;
     font-size: 4vw;
+    width: device-width;
     align-content: center;
     align-items: center;
     display: flex;
