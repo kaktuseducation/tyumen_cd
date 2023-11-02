@@ -9,7 +9,6 @@ body{
     margin: 0px;
     width: 100vw;
     background-image: url("../img/main background.png"); 
-    overflow: hidden
 }
 
 .header{
