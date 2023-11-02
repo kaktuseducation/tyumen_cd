@@ -9,8 +9,6 @@ body{
 
 .header{
     position: absolute;
-    border: none;
-    float: center;
     background-color: transparent;
     background-image: url("../img/main line.png"); 
     background-size: auto;
