@@ -1,7 +1,6 @@
 body{
     align-content: center;
     align-items: center;
-    background: white;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -15,9 +14,8 @@ body{
 
 .header{
     font-family: "Garamond";
-    color: #ffffff;
+    font-color: white;
     font-size: 4vw;
-    position: absolute;
     align-content: center;
     align-items: center;
     display: flex;
