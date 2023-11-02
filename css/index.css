@@ -21,9 +21,6 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    height: 100vh;
     justify-content: flex-start;
-    margin: 0px;
-    width: 100vw;
     background-image: url("../img/main line.png");
 }
