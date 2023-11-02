@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
     align-content: center;
     align-items: center;
     background-image: url("../img/main background.png"); 
@@ -14,6 +15,7 @@ body{
 .header{
     position: absolute; 
     width: device-width;
+    display: flex;
     length: device-length;
     background-repeat: no-repeat;
     background-attachment: fixed;
