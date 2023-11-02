@@ -12,11 +12,12 @@ body{
 }
 
 <style>
-#tekst_sverhu_kartinki {
+#Headline {
     position: relative;
 }
 
-.tekst_sverhu_kartinki {
+.Headline {
+    position: absolute;
     text-transform: uppercase;
     color: white;
     text-align: center;
