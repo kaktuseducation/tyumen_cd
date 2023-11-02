@@ -1,5 +1,4 @@
 body{
-    padding: 0;
     background-image: url("../img/main background.png"); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +13,7 @@ body{
     height: 15%;
 }
 
-.header{
+.header h{
     margin: auto;
     font-family: "Garamond";
 }
