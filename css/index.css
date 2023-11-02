@@ -22,5 +22,5 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    background-image: url("../img/main line.png");
+    background: #D4A174;
 }
