@@ -18,5 +18,5 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    background: #D4A174;
+    background-image: url("../img/main line.png");
 }
