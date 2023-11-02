@@ -13,4 +13,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border: none;
+    float: left;
+    background-color: transparent;
 }
