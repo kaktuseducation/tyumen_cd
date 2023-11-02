@@ -7,7 +7,7 @@ body{
     background-image: url("../img/main background.png"); 
     width: device-width;
     length: device-length;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed; 
     overflow: hidden
 }
