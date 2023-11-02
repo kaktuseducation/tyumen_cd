@@ -17,19 +17,6 @@ body{
     position: absolute;
     align-content: center;
     align-items: center;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    background: #D4A174;
-}
-
-.tmncd{
-    position: absolute;
-    align-content: center;
-    align-items: center;
-    background: white;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
