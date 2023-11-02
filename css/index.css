@@ -10,3 +10,18 @@ body{
 .fonth1{
   font-family: "Garamond";
 }
+
+<style>
+#tekst_sverhu_kartinki {
+    position: relative;
+}
+
+.tekst_sverhu_kartinki {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: "Garamond"
+}
+
+</style>
