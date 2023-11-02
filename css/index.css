@@ -10,8 +10,7 @@ body{
 }
 
 .header{
-    position: absolute;
-    background: #d4a174; 
+    position: absolute; 
     background-width: device-width;
     background-length: device-length;
     background-repeat: no-repeat;
