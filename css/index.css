@@ -1,9 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    align-content: center;
+    align-items: center;
     background-image: url("../img/main background.png"); 
-    background-width: device-width;
-    background-length: device-length;
+    width: device-width;
+    length: device-length;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     overflow: hidden
@@ -11,8 +13,8 @@ body{
 
 .header{
     position: absolute; 
-    background-width: device-width;
-    background-length: device-length;
+    width: device-width;
+    length: device-length;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
