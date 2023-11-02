@@ -11,8 +11,7 @@ body{
 
 .header{
     position: absolute;
-    background-color: transparent;
-    background-image: url("../img/main line.png"); 
+    background-color: #d4a174; 
     background-width: device-width;
     background-length: device-length;
     background-repeat: no-repeat;
