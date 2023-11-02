@@ -6,14 +6,11 @@ body{
 }
 
 .header{
+    margin: auto;
+    font-family: "Garamond";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 15%;
-}
-
-.header h{
-    margin: auto;
-    font-family: "Garamond";
 }
