@@ -16,5 +16,7 @@ body{
     height: 10%;
     background-color: #E5A272;
     background-image: url("../img/main line.png");
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
