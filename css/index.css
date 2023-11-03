@@ -47,3 +47,15 @@ input{
     width: 70px;
     background-color: #d4a174;
 }
+
+.leftimg{
+    background-image: url("../img/left img.png");
+    height: 371px;
+    width: 177px;
+}
+
+.rightimg{
+    background-image: url("../img/right img.png");
+    height: 371px;
+    width: 177px;
+}
