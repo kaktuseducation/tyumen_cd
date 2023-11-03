@@ -9,12 +9,11 @@ body{
 }
 
 .header{
-    position: absolute;
     font-family: "Garamond";
     color: white;
     top: 20%;
     left: 0;
-    width: 75%%;
+    width: 75%;
     height: 10%;
     background-image: url("../img/main line.png");
     display: flex;
