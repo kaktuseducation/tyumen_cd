@@ -16,7 +16,6 @@ body{
     left: 0;
     width: 100%;
     height: 10%;
-    background-color: #E5A272;
     background-image: url("../img/main line.png");
     display: flex;
     justify-content: center;
