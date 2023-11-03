@@ -38,26 +38,26 @@ input{
 .search{
     font-family: "Garamond";
     color: black;
-    width: 100vw;
+    width: 100px;
 }
 
 .submit{
     font-family: "Garamond";
     color: white;
-    width: 100vw;
+    width: 100px;
     background-color: #d4a174;
 }
 
 .leftimg{
     position: absolute;
     background-image: url("../img/left img.png");
-    height: 100vh;
-    width: 100vw;
+    height: 100px;
+    width: 100px;
 }
 
 .rightimg{
     position: absolute;
     background-image: url("../img/right img.png");
-    height: 100vh;
-    width: 100vw;
+    height: 100px;
+    width: 100px;
 }
