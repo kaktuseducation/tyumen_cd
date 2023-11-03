@@ -45,12 +45,12 @@ body{
     }
 
     .search {
-        width: 75%;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
     .submit{
-        width: 70px;
+        width: 100px;
         background-color: #d4a174;
         color: #ffffff;
         justify-content: center;
