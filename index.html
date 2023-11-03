@@ -12,6 +12,11 @@
         <div class = "header"> 
             <p> tyumen cd </p>
         </div>
+
+        <form> 
+            <input type = "text" name = text" class = "search" placeholder"Search here!">
+            <input type = "submit" name = "submit" class = "submit" value = "Search">
+        </form>
         
         <script>
             function FontSize() {
@@ -21,8 +26,12 @@
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
             }
+            
             window.addEventListener('resize', FontSize);
             FontSize();
+            
         </script>
+        
     </body>
+    
 </html>
