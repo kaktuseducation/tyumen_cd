@@ -10,6 +10,7 @@ body{
 
 .header{
     position: absolute;
+    font-family: "Garamond";
     top: 5%;
     left: 0;
     width: 100%;
