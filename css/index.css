@@ -25,26 +25,23 @@ body{
 
 <style>
     form{
-        position: absolute;
-        width: 400px;
-        margin: auto;
+        width:400px;
+        margin:auto;
         margin-top: 250px;
     }
 
     input{
-        padding: 4px 10px;
-        border: 0;
-        font-size: 16px;
+        padding:4px 10px;
+        border:0;
+        font-size:16px;
     }
 
     .search{
-        position: relative;
         font-family: "Garamond";
         color: black;
         width: 75%;
     }
     .submit{
-        position: absolute;
         font-family: "Garamond";
         color: white;
         width: 70px;
