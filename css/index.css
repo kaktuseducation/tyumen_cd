@@ -22,22 +22,17 @@ body{
     align-items: center;
 }
 
-<style> 
+<style>
     form {
         width: 400px;
         margin: auto;
         margin-top: 250px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-
     input{
         padding: 4px 10px;
         border: 0;
         font-size: 16px;
     }
-
     .search {
         width: 75%;
     }
