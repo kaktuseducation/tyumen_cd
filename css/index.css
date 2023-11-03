@@ -50,8 +50,10 @@ input{
 
 .leftimg{
     position: absolute;
+    background-image: url("../img/left img.png");
 }
 
 .rightimg{
     position: absolute;
+    background-image: url("../img/right img.png");
 }
