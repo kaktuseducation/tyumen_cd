@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang = "en">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width = device-width, length = device-length, initial-scale = 1.0">
-    
-    </div>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, length = device-length, initial-scale = 1.0">
         <title> tyumen cd </title>
         <link rel = "stylesheet" type = "text/css" href = "css/font.css">
         <link rel = "stylesheet" href = "css/index.css">
     </head>
     
     <body>
-        <div class = "header"> tyumen cd </div>    
+        <div class = "header"> tyumen cd </div>
+        
+        <script>
+            function FontSize() {
+                header = document.querySelector(".header");
+                var vh = window.innerHeight;
+                var vw = window.innerWidth;
+                header.style.fontsize = Math.min(7*vh, 10*wv) + 'px';
+            }
+            window.onload = FontSize;
+            window.onresize = FontSize;
+        </script>
     </body>
 </html>
