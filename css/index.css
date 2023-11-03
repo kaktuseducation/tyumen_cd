@@ -45,14 +45,19 @@ body{
     }
 
     .search {
+        position: absolute;
+        font-family: "Garamond";
+        color: black;
         width: 100%;
         justify-content: center;
         align-items: center;
     }
     .submit{
+        position: absolute;
+        font-family: "Garamond";
+        color: white;
         width: 100px;
         background-color: #d4a174;
-        color: #ffffff;
         justify-content: center;
         align-items: center;
     }
