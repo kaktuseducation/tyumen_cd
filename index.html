@@ -14,11 +14,11 @@
         <script>
             function FontSize() {
                 header = document.querySelector(".header");
-                var vh = window.innerHeight;
-                var vw = window.innerWidth;
+                var vh = window.innerHeight/100;
+                var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontsize = size + 'px';
-                console.log(size);
+                console.log(7*vh, 10*vw, size);
             }
             window.addEventListener('resize', FontSize);
             FontSize();
