@@ -18,8 +18,8 @@
                 var vw = window.innerWidth;
                 header.style.fontsize = Math.min(7*vh, 10*vw) + 'px';
             }
-            window.onload = FontSize;
-            window.onresize = FontSize;
+            window.addEventListener('resize', FontSize);
+            FontSize();
         </script>
     </body>
 </html>
