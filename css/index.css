@@ -38,7 +38,7 @@ body{
     }
 
     .search{
-        position: absolute;
+        position: relative;
         font-family: "Garamond";
         color: black;
         width: 75%;
