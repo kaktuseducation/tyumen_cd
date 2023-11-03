@@ -10,12 +10,14 @@ body{
 }
 
 .leftimg{
+    position: absolute;
     background-image: url("../img/left img.png");
     height: 371px;
     width: 177px;
 }
 
 .rightimg{
+    position: absolute;
     background-image: url("../img/right img.png");
     height: 371px;
     width: 177px;
