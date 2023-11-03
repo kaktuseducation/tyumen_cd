@@ -11,7 +11,7 @@ body{
 .header{
     position: absolute;
     font-family: "Garamond";
-    font-color: white;
+    color: white;
     top: 5%;
     left: 0;
     width: 100%;
