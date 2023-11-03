@@ -38,13 +38,13 @@ input{
 .search{
     font-family: "Garamond";
     color: black;
-    width: 75%;
+    width: 100px;
 }
 
 .submit{
     font-family: "Garamond";
     color: white;
-    width: 70px;
+    width: 100px;
     background-color: #d4a174;
 }
 
