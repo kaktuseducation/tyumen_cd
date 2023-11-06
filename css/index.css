@@ -14,7 +14,7 @@ body{
     background-image: url("../img/side.svg");
 }
 
-.header{
+.grad{
     position: absolute;
     font-family: "Garamond";
     color: white;
