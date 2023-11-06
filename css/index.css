@@ -9,11 +9,6 @@ body{
     overflow: hidden;
 }
 
-.sideimg{
-    position: absolute;
-    background-image: url("../img/side.svg");
-}
-
 .header{
     position: absolute;
     font-family: "Garamond";
@@ -51,18 +46,4 @@ input{
     color: white;
     width: 70px;
     background-color: #d4a174;
-}
-
-.grad{
-    position: absolute;
-    font-family: "Garamond";
-    color: white;
-    top: 5%;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    background-image: url("../img/gradient.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
