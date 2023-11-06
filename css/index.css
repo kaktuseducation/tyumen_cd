@@ -11,7 +11,7 @@ body{
 
 .sideimg{
     position: absolute;
-    background-image: url("../img/side.png");
+    background-image: url("../img/side.svg");
 }
 
 .header{
