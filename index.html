@@ -14,8 +14,8 @@
         </div>
 
         <div class = "develop">
-            <p> Строка поиска находится в разработке.
-            Пожалуйста, воспользуйтесь <a href = "list.html"> списком </a> команд для поиска.</p>
+            <p align = "center"> Строка поиска находится в разработке. </p>
+            <p align = "center"> Пожалуйста, воспользуйтесь <a href = "list.html"> списком </a> команд для поиска.</p>
         </div>
 
         <form> 
@@ -26,15 +26,11 @@
         <script>
             function FontSize() {
                 header = document.querySelector(".header");
-                search = document.querySelector(".search");
-                submit = document.querySelector(".submit");
                 develop = document.querySelector(".develop");
                 var vh = window.innerHeight/100;
                 var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
-                search.style.fontSize = size + 'px';
-                submit.style.fontSize = size + 'px';
                 develop.style.fontSize = size + 'px';
             }
                         
