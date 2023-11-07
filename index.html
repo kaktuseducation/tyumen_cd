@@ -13,9 +13,9 @@
             <p> tyumen cd </p>
         </div>
 
-        <form method = "post" id  = "index"> 
+        <form> 
           <input type = "text" class = "search" placeholder = "Search here!">
-          <input type = "submit" class = "submit" value = "Search" formaction = select()>
+          <input type = "submit" class = "submit" value = "Search">
         </form>
         
         <script>
@@ -25,11 +25,6 @@
                 var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
-            }
-
-            function select(){
-                if (search.value == "Alim") or (search.value == "alim"){
-                    formaction = "https://kaktuseducation.github.io/tyumen_cd/alim.html"}
             }
                         
             window.addEventListener('resize', FontSize);
