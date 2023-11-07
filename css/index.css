@@ -35,13 +35,13 @@ input{
     font-size:16px;
 }
 
-#search{
+.search{
     font-family: "Garamond";
     color: black;
     width: 75%;
 }
 
-#submit{
+.submit{
     font-family: "Garamond";
     color: white;
     width: 70px;
