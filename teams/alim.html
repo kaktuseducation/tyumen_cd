@@ -18,8 +18,9 @@
                 header = document.querySelector(".header");
                 var vh = window.innerHeight/100;
                 var vw = window.innerWidth/100;
-                size = Math.min(7*vh, 10*vw)
-                header.style.fontSize = size + 'px';
+                hsize = Math.min(7*vh, 10*vw)
+                bsize = Math.min(3*vh, 5*vw)
+                header.style.fontSize = hsize + 'px';
             }
             window.addEventListener('resize', FontSize);
             FontSize();
