@@ -15,7 +15,7 @@
 
         <form> 
           <input type = "text" name = "text" class = "search" placeholder = "Search here!">
-          <input type = "submit" name = "submit" class = "submit" value = "Search" document.location = "alim.html">
+          <input type = "submit" name = "submit" class = "submit" value = "Search" onclick = sekect()>
         </form>
         
         <script>
@@ -25,11 +25,10 @@
                 var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
+            }
 
-                function select(){
-                if (text.value == "alim") or (text.value == "Alim"){
-                document.location='alim.html'}
-                }
+                function select(){document.location = "alim.html"}
+                        
             window.addEventListener('resize', FontSize);
             FontSize();
             
