@@ -16,14 +16,20 @@
         <div class = "alphabet">
             <p align = "center"> a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z.</p>
         </div>
+
+        <LI>
+            
+        </LI>
         
         <script>
             function FontSize() {
                 header = document.querySelector(".header");
+                alphabet = document.querySelector(".alphabet");
                 var vh = window.innerHeight/100;
                 var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
+                alphabet.style.fontSize = size + 'px';
             }
                         
             window.addEventListener('resize', FontSize);
