@@ -40,10 +40,14 @@
         <script>
             function FontSize() {
                 header = document.querySelector(".header");
+                alphabet = document.querySelector(".alphabet");
+                list = document.querySelector(".list");
                 var vh = window.innerHeight/100;
                 var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
+                alphabet.style.fontSize = size + 'px';
+                list.style.fontSize = size + 'px';
             }
                         
             window.addEventListener('resize', FontSize);
