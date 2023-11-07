@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, length = device-length, initial-scale = 1.0">
+        <title> tyumen cd </title>
+        <link rel = "stylesheet" type = "text/css" href = "css/font.css">
+        <link rel = "stylesheet" href = "css/index.css">
+    </head>
+    
+    <body>
+        <div class = "header"> 
+            <p> tyumen cd </p>
+        </div>
+
+        <div class = "develop">
+            <p> Строка поиска находится в разработке.
+            Пожалуйста, воспользуйтесь <a href = "list.html"> списком команд для поиска.</p>
+        </div>
+
+        <script>
+            function FontSize() {
+                header = document.querySelector(".header");
+                var vh = window.innerHeight/100;
+                var vw = window.innerWidth/100;
+                size = Math.min(7*vh, 10*vw)
+                header.style.fontSize = size + 'px';
+            }
+                        
+            window.addEventListener('resize', FontSize);
+            FontSize();
+            
+        </script>
+        
+    </body>
+    
+</html>
