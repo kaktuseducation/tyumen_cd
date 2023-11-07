@@ -15,13 +15,8 @@
 
         <form> 
           <input type = "text" name = "text" class = "search" placeholder = "Search here!">
-          <input type = "submit" name = "submit" class = "submit" value = "Search">
+          <input type = "submit" name = "submit" class = "submit" value = "Search" onclick = select()>
         </form>
-
-            if (submit.value == "alim") or (submit.value == "Alim")
-            {
-                action = "https://kaktuseducation.github.io/tyumen_cd/alim.html
-            }
         
         <script>
             function FontSize() {
@@ -30,6 +25,11 @@
                 var vw = window.innerWidth/100;
                 size = Math.min(7*vh, 10*vw)
                 header.style.fontSize = size + 'px';
+
+            function select()
+            if (submit.value == "alim") or (submit.value == "Alim")
+            {
+                action = "https://kaktuseducation.github.io/tyumen_cd/alim.html
             }
             window.addEventListener('resize', FontSize);
             FontSize();
