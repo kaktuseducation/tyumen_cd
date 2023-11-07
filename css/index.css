@@ -54,9 +54,7 @@ input{
     color: white;
     top: 50%;
     left: 0;
-    width: 100%;
-    height: 10%;
-    background-image: url("../img/main line.png");
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
