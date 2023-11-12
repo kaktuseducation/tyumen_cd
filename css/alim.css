@@ -25,6 +25,8 @@ body{
 
 .profimg{
     position: absolute;
+    width: 3024px;
+    height: 4032px;
     top: 0;
     left: 0;
     background-image: url("../img/main background.png");
