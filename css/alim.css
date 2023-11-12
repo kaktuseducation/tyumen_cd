@@ -22,12 +22,3 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.profimg{
-    position: absolute;
-    width: 1512px;
-    height: 2016px;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-}
