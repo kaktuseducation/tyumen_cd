@@ -23,7 +23,7 @@ TEAMS = {
             Diana \n
             Sonya \n
   About group : \n
-  SNS : \n' `,
+  SNS : \n `,
 
   'Blueming' :
   `Name : Blueming [Blúeming] \n
@@ -40,4 +40,55 @@ TEAMS = {
             Hyunii \n
             Pauline \n
   About group : \n
-  SNS : \n' `,
+  SNS : \n `,
+
+  'C&O' : ``,
+  'Chunjia' : ``,
+  'GWLS' : ``,
+  'IY' : ``,
+  
+  'Key-sd' : 
+  `Name : Key-sd [Ki-sd] \n
+  Birthday : 08.08.2022 \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : blue \n
+  Members : Cat \n
+            Kiki \n
+            Senya \n
+            Dilya \n
+            Misa \n
+            Sasha \n
+            Docha \n
+            Yulya \n
+            Ari \n
+            Lina \n
+            Hanie \n
+  About group : \n
+  SNS : \n `,
+  
+  'Kizzy' : ``,
+  'Lfys' : ``,
+  'L-line' : ``,
+  'Moon bunny' : ``,
+  'Moonlight' : ``,
+  'New Stage' : ``,
+  
+  'Obsession' : 
+  `Name : Obsession [əbˈsɛ́ʃᵊn] \n
+  Birthday : 08.08.2022 \n
+  Fandom : \n
+  Debut cover : BVNDT - VENOM \n
+  Official color : red \n
+  Members : Amina \n
+            Helli \n
+            Q \n
+            Eunji \n
+            Nika \n
+            Nastya \n
+  About group : \n
+  SNS : \n `,
+  
+  'C&O' : ``,
+  'C&O' : ``,
+  'C&O' : ``,
