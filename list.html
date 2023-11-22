@@ -56,14 +56,12 @@
         <script>
             function FontSize() {
                 header = document.querySelector(".header");
-                alphabet = document.querySelector(".alphabet");
                 list = document.querySelector(".list");
                 var vh = window.innerHeight/100;
                 var vw = window.innerWidth/100;
                 hsize = Math.min(7*vh, 10*vw)
                 bsize = Math.min(4*vh, 5*vw)
                 header.style.fontSize = hsize + 'px';
-                alphabet.style.fontSize = bsize + 'px';
                 list.style.fontSize = bsize + 'px';
             }
                         
