@@ -23,18 +23,6 @@ body{
     align-items: center;
 }
 
-.alphabet{
-    position: absolute;
-    font-family: "Garamond";
-    color: white;
-    top: 12%;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-}
-
 .list{
     position: absolute;
     font-family: "Garamond";
