@@ -82,7 +82,7 @@ TEAMS = {
   About group : \n
   SNS : \n `,
   
-  'Key-sd' : 
+  'Keysd' : 
   `Name : Key-sd [Ki-sd] \n
   Birthday : 08.08.2022 \n
   Fandom : \n
@@ -122,7 +122,7 @@ TEAMS = {
   About group : \n
   SNS : \n `,
   
-  'L-line' :
+  'Lline' :
   `Name : \n
   Birthday : \n
   Fandom : \n
@@ -218,6 +218,23 @@ TEAMS = {
   SNS : \n `,
   
   'Stars up!' :
+  `Name : Stars up! [stɑːz ʌ́p!] \n
+  Birthday : 07.09.2023 \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : Torry \n
+            Myun \n
+            Khosu \n
+            Busya \n
+            Misako \n
+            Seonha \n
+            Miku \n
+            Luna \n
+  About group : \n
+  SNS : \n `,
+
+  'Stellare' :
   `Name : \n
   Birthday : \n
   Fandom : \n
@@ -226,9 +243,103 @@ TEAMS = {
   Members : \n
   About group : \n
   SNS : \n `,
-  
-  'Riyue' : ``,
-  'Riyue' : ``,
-  'Riyue' : ``,
-  'Riyue' : ``,
-  'Riyue' : ``,
+
+  'The girlz' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Time will show' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'W2H' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Wenlee' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Werise' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Werise Crew' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Weings of passion' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Wisteria' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'XLNT' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+
+  'Yummys' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
