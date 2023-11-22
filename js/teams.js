@@ -42,10 +42,45 @@ TEAMS = {
   About group : \n
   SNS : \n `,
 
-  'C&O' : ``,
-  'Chunjia' : ``,
-  'GWLS' : ``,
-  'IY' : ``,
+  'C&O' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Chunjia' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'GWLS' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'IY' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
   
   'Key-sd' : 
   `Name : Key-sd [Ki-sd] \n
@@ -67,12 +102,65 @@ TEAMS = {
   About group : \n
   SNS : \n `,
   
-  'Kizzy' : ``,
-  'Lfys' : ``,
-  'L-line' : ``,
-  'Moon bunny' : ``,
-  'Moonlight' : ``,
-  'New Stage' : ``,
+  'Kizzy' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Lfys' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'L-line' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Moon bunny' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Moonlight' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'New Stage' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
   
   'Obsession' : 
   `Name : Obsession [əbˈsɛ́ʃᵊn] \n
@@ -89,6 +177,58 @@ TEAMS = {
   About group : \n
   SNS : \n `,
   
-  'C&O' : ``,
-  'C&O' : ``,
-  'C&O' : ``,
+  'Ottoke Crew' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Raven' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Riyue' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Scream' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Stars up!' :
+  `Name : \n
+  Birthday : \n
+  Fandom : \n
+  Debut cover : \n
+  Official color : \n
+  Members : \n
+  About group : \n
+  SNS : \n `,
+  
+  'Riyue' : ``,
+  'Riyue' : ``,
+  'Riyue' : ``,
+  'Riyue' : ``,
+  'Riyue' : ``,
