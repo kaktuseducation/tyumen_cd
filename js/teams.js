@@ -235,22 +235,31 @@ TEAMS = {
   SNS : \n `,
 
   'Stellare' :
-  `Name : \n
-  Birthday : \n
-  Fandom : \n
+  `Name : Stellare [Stellare] \n
+  Birthday : 10.08.2023 \n
+  Fandom : Stellnes\n
   Debut cover : \n
   Official color : \n
-  Members : \n
+  Members : Ayun \n
+            Roa \n
+            Minty \n
+            Haotin \n
   About group : \n
   SNS : \n `,
 
   'The girlz' :
-  `Name : \n
-  Birthday : \n
+  `Name : The girlz [ðə gi̇́rlz] \n
+  Birthday : 08.09.2021 \n
   Fandom : \n
   Debut cover : \n
-  Official color : \n
-  Members : \n
+  Official color : blue \n
+  Members : RM \n
+            Leco \n
+            Minci \n
+            Ari \n
+            Icy \n
+            Renata \n
+            Darcy \n      
   About group : \n
   SNS : \n `,
 
@@ -265,12 +274,19 @@ TEAMS = {
   SNS : \n `,
 
   'W2H' :
-  `Name : \n
-  Birthday : \n
-  Fandom : \n
-  Debut cover : \n
-  Official color : \n
-  Members : \n
+  `Name : W2H [wiːtu:éɪʧ] \n
+  Birthday : 15.01.2023 \n
+  Fandom : Devils [dɛ́vᵊlz] \n
+  Debut cover : STRAY KIDS - THUNDEROUS \n
+  Official color : black, red \n
+  Members : Tate \n
+            Sato \n
+            Lexus \n
+            Hani \n
+            Mins \n
+            ReiLi \n
+            Lin \n
+            Mellet \n
   About group : \n
   SNS : \n `,
 
@@ -285,12 +301,17 @@ TEAMS = {
   SNS : \n `,
 
   'Werise' :
-  `Name : \n
-  Birthday : \n
+  `Name : Werise [Weri̇́se] \n
+  Birthday : 07.10.2021 \n
   Fandom : \n
-  Debut cover : \n
-  Official color : \n
-  Members : \n
+  Debut cover : LE SSERAFIM - ANTIFRIAGLE \n
+  Official color : blue, white \n
+  Members : Vishes \n
+            LU \n
+            Nuta \n
+            Aizhan \n
+            Lana \n
+            Fisa \m
   About group : \n
   SNS : \n `,
 
@@ -304,23 +325,29 @@ TEAMS = {
   About group : \n
   SNS : \n `,
 
-  'Weings of passion' :
-  `Name : \n
-  Birthday : \n
+  'Wings of passion' :
+  `Name : Wings of passion [wɪŋz ɒv ˈpæʃᵊn] \n
+  Birthday : 29.09.2022 \n
   Fandom : \n
-  Debut cover : \n
-  Official color : \n
-  Members : \n
+  Debut cover : TEN & WINWIN - LOVELY \n
+  Official color : black, gray, white \n
+  Members : Alice Lehodey \n
   About group : \n
   SNS : \n `,
 
   'Wisteria' :
-  `Name : \n
-  Birthday : \n
+  `Name : Wisteria [wɪˈstɪə́riə] \n
+  Birthday : 07.03.2023 \n
   Fandom : \n
-  Debut cover : \n
-  Official color : \n
-  Members : \n
+  Debut cover : NEWJEANS - OMG \n
+  Official color : light purple \n
+  Members : Mint \n
+            Raf \n
+            Mona \n
+            Evy \n
+            Wqouip \n
+            Alisqex \n
+            Vita \n
   About group : \n
   SNS : \n `,
 
