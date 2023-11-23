@@ -369,4 +369,4 @@ TEAMS = {
   Official color : \n
   Members : \n
   About group : \n
-  SNS : \n `,
+  SNS : \n `, }
