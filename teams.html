@@ -9,6 +9,32 @@
     </head>
 
     <body>
+
+        <script src = "data/teams.js"></script>
+
+        <script>
+            localStorage.setItem('ref', 'teams.html');
+
+            land = localStorage.getItem('teams');
+            document.querySelector('.content').textContent = TEAMS[teams];
+            document.querySelector('.about').textContent = teams;
+            document.querySelector('.mainphoto').src = "img/" + teams + ".svg";
+
+            TEXT = document.querySelector('.content')
+            function size(){
+                let max_length = TEXT.textContent.length;
+                let width = 0.74*window.innerWidth;
+                let height = 0.85*window.innerHeight;
+                let size = Math.sqrt(0.7*width * height / max_length);
+                let space = 0.1*size;
+                TEXT.style.fontSize = size+ 'px';
+                TEXT.style.letterSpacing = space + 'px';
+                TEXT.style.lineHeight = '1.8';
+            }
+            window.addEventListener('resize', size);
+            size();
+
+    </script>
         
     </body>
 
