@@ -15,15 +15,14 @@
         </div>
 
         <div class = "about"></div>
-        
+        <div class = "content"></div>
         
     </body>
 
         <script src = "teams.js"></script>
 
         <script>
-            team = localStorage.setItem('team');
-            function openteam(){document.location = 'teams.html'}
+            localStorage.setItem('ref', 'teams.html');
 
             teams = localStorage.getItem('teams');
             document.querySelector('.content').textContent = TEAMS[teams];
