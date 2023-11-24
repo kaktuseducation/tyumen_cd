@@ -25,12 +25,9 @@
             team = localStorage.setItem('team');
             function openteam(){document.location = 'teams.html'}
 
-            team = localStorage.getItem('team');
-            document.querySelector('.about').textContent = TEAMS[team];
-            document.querySelector('.flag').src = "img/flags/" + land + ".svg";
-            document.querySelector('.emblem').src = "img/emblems/" + land + ".svg";
-                
-            }
+            teams = localStorage.getItem('teams');
+            document.querySelector('.content').textContent = TEAMS[teams];
+            document.querySelector('.about').textContent = teams;
         </script>
     
         <script>
