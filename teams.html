@@ -27,18 +27,18 @@
             teams = localStorage.getItem('teams');
             document.querySelector('.content').textContent = TEAMS[teams];
             document.querySelector('.about').textContent = teams;
-        </script>
-    
-        <script>
+
             function FontSize() {
                 header = document.querySelector(".header");
                 about = document.querySelector(".about");
+                text = document.querySelector('.content')
                 var vh = window.innerHeight/100;
                 var vw = window.innerWidth/100;
                 hsize = Math.min(7*vh, 10*vw)
                 bsize = Math.min(4*vh, 5*vw)
                 header.style.fontSize = hsize + 'px';
                 about.style.fontSize = bsize + 'px';
+                content.style.fontSize = bsize + 'px';
             }
                         
             window.addEventListener('resize', FontSize);
