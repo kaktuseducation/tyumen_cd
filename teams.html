@@ -29,8 +29,8 @@
             
             document.querySelector('.about').textContent = team_name;
             content = document.querySelector('.content');
-            teams = TEAMS[team_name];
-            members = teams['Members'];
+            team = TEAMS[team_name];
+            members = team['Members'];
             for (i in members){
                 button = document.createElement('button');
                 button.textContent = members[i];
