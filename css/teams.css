@@ -54,6 +54,6 @@ body{
     background-image: none; 
     background: transparent;
     background-color: transparent;
-    width: 180px;
     display: flex;
+    font-size : 18px;
 }
