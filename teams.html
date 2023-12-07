@@ -24,13 +24,13 @@
         <script class = "btn">
             localStorage.setItem('ref', 'teams.html');
 
-            teams = localStorage.setItem('teams');
+            team_name = 'Alim';
             //document.querySelector('.content').textContent = TEAMS[teams];
             
-            document.querySelector('.about').textContent = teams;
+            document.querySelector('.about').textContent = team_name;
             content = document.querySelector('.content');
-            team_name = TEAMS[teams];
-            members = team_name['Members'];
+            teams = TEAMS[team_name];
+            members = teams['Members'];
             for (i in members){
                 button = document.createElement('button');
                 button.textContent = members[i];
