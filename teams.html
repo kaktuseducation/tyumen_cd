@@ -30,6 +30,8 @@
             document.querySelector('.about').textContent = team_name;
             content = document.querySelector('.content');
             team = TEAMS[team_name];
+            console.log(team);
+            console.log(team['members']);
             for (member in team['members']){
                 button = document.createElement('button');
                 button.textContent = member;
