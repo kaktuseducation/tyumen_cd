@@ -21,7 +21,7 @@
 
         <script src = "js/teams.js"></script>
 
-        <script class = "btn">
+        <script>
             localStorage.setItem('ref', 'teams.html');
 
             team_name = 'Alim';
@@ -35,6 +35,7 @@
                 button = document.createElement('button');
                 button.textContent = members[i];
                 content.appendChild(button);
+                button.ClassName = "btn';
             }
 
             function FontSize() {
