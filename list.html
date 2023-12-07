@@ -13,51 +13,14 @@
             <p> team list </p>
         </div>
 
-        <div class = list>
-<!--             <ul>
-                <li> <a href = "teams.html" > alim </a> </li>
-                <li> <a href = "teams/blueming.html" > blueming </a> </li>
-                <li> <a href = "teams/c_and_o.html" > c&o </a> </li>
-                <li> <a href = "teams/chunjia.html" > chunjia </a> </li>
-                <li> <a href = "teams/gwls.html" > gwls </a> </li>
-                <li> <a href = "teams/iy.html" > iy </a> </li>
-                <li> <a href = "teams/keysd.html" > keysd </a> </li>
-                <li> <a href = "teams/kizzy.html" > kizzy </a> </li>
-                <li> <a href = "teams/lfys.html" > lfys </a> </li>
-                <li> <a href = "teams/l_line.html" > l-line </a> </li>
-                <li> <a href = "teams/moon_bunny.html" > moon bunny </a> </li>
-                <li> <a href = "teams/moonlight.html" > moonlight </a> </li>
-                <li> <a href = "teams/new_stage.html" > new stage </a> </li>
-                <li> <a href = "teams/obsession.html" > obsession </a> </li>
-                <li> <a href = "teams/ottoke_crew.html" > ottoke crew </a> </li>
-                <li> <a href = "teams/raven.html" > raven </a> </li>
-                <li> <a href = "teams/riyue.html" > riyue </a> </li>
-            </ul>
-
-            <ul>
-                <li> <a href = "teams/scream.html" > scream </a> </li>
-                <li> <a href = "teams/stars_up.html" > stars up! </a> </li>
-                <li> <a href = "teams/stellare.html" > stellare </a> </li>
-                <li> <a href = "teams/the_girlz.html" > the girlz </a> </li>
-                <li> <a href = "teams/time_will_show.html" > time will show </a> </li>
-                <li> <a href = "teams/twellfo.html" > twellfo </a> </li>
-                <li> <a href = "teams/w2h.html" > w2h </a> </li>
-                <li> <a href = "teams/wenlee.html" > wenlee </a> </li>
-                <li> <a href = "teams/werise.html" > werise </a> </li>
-                <li> <a href = "teams/werise_crew.html" > werise crew </a> </li>
-                <li> <a href = "teams/wings_of_passion.html" > wings of passion </a> </li>
-                <li> <a href = "teams/wisteria.html" > wisteria </a> </li>
-                <li> <a href = "teams/xlnt.html" > xlnt </a> </li>
-                <li> <a href = "teams/yummys.html" > yummy's </a> </li>
-            </ul>
-             -->
-        </div>
+        <div class = list> </div>
+        
         <script src = 'js/teams.js'></script>
         <script>
             LIST = document.querySelector(".list");
             for (const team in TEAMS){
                 child = document.createElement('li');
-                child.textContent = team;
+                child.textContent = team_name;
                 LIST.appendChild(child);   
             }
             function FontSize() {
