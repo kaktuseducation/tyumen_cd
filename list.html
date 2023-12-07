@@ -18,9 +18,9 @@
         <script src = 'js/teams.js'></script>
         <script>
             LIST = document.querySelector(".list");
-            for (const team_name in TEAMS){
+            for (const teams in TEAMS){
                 child = document.createElement('li');
-                child.textContent = team_name;
+                child.textContent = teams;
                 LIST.appendChild(child);   
             }
             function FontSize() {
