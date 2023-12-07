@@ -19,12 +19,13 @@
         
     </body>
 
-        <script src = "teams.js"></script>
+        <script src = "../js/teams.js"></script>
 
         <script>
             localStorage.setItem('ref', 'teams.html');
 
-            teams = localStorage.getItem('teams');
+            //teams = localStorage.getItem('teams');
+            teams = 'Alim';
             document.querySelector('.content').textContent = TEAMS[teams];
             document.querySelector('.about').textContent = teams;
 
