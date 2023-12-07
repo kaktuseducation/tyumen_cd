@@ -14,7 +14,7 @@
         </div>
 
         <div class = list>
-            <ul>
+<!--             <ul>
                 <li> <a href = "teams.html" > alim </a> </li>
                 <li> <a href = "teams/blueming.html" > blueming </a> </li>
                 <li> <a href = "teams/c_and_o.html" > c&o </a> </li>
@@ -50,9 +50,9 @@
                 <li> <a href = "teams/xlnt.html" > xlnt </a> </li>
                 <li> <a href = "teams/yummys.html" > yummy's </a> </li>
             </ul>
-            
+             -->
         </div>
-
+        <script src = 'js/teams.js></script>
         <script>
             localStorage.setItem('ref', 'teams.html');
             function openteam(){document.location = 'teams.html'}
@@ -61,6 +61,12 @@
         </script>
         
         <script>
+            LIST = document.querySelector(".list");
+            TEAMS.forEach(team => {
+                child = document.createElement('li');
+                child.textContent = team;
+                LIST.appendChild(child);   
+            });
             function FontSize() {
                 header = document.querySelector(".header");
                 list = document.querySelector(".list");
