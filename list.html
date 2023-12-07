@@ -55,11 +55,11 @@
         <script src = 'js/teams.js'></script>
         <script>
             LIST = document.querySelector(".list");
-            TEAMS.forEach(team => {
+            for (const team in TEAMS){
                 child = document.createElement('li');
                 child.textContent = team;
                 LIST.appendChild(child);   
-            });
+            }
             function FontSize() {
                 header = document.querySelector(".header");
                 list = document.querySelector(".list");
