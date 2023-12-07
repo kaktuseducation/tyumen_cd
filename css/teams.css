@@ -50,7 +50,10 @@ body{
     position: absolute;
     font-family: "Garamond";
     color: white;
-    background-color : transparent;
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
     width: 180px;
     display: flex;
 }
