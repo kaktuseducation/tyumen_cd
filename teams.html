@@ -24,8 +24,8 @@
         <script class = "btn">
             localStorage.setItem('ref', 'teams.html');
 
-            //teams = localStorage.getItem('teams');
-            team_name = TEAMS[teams];
+            team_name = localStorage.getItem('teams');
+            //team_name = TEAMS[teams];
             //document.querySelector('.content').textContent = TEAMS[teams];
             
             document.querySelector('.about').textContent = team_name;
