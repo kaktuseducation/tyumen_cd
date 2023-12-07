@@ -25,9 +25,15 @@
             localStorage.setItem('ref', 'teams.html');
 
             //teams = localStorage.getItem('teams');
-            teams = 'Alim';
-            document.querySelector('.content').textContent = TEAMS[teams];
-            document.querySelector('.about').textContent = teams;
+            team_name = 'Alim';
+            //document.querySelector('.content').textContent = TEAMS[teams];
+            document.querySelector('.about').textContent = team_name;
+            content = document.querySelector('.content');
+            for (member in TEAMS[team_name].members){
+                button = document.createElement('button');
+                button.textContent = member;
+                content.appendChild(button);
+            }
 
             function FontSize() {
                 header = document.querySelector(".header");
