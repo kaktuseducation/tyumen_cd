@@ -49,11 +49,13 @@ body{
 .btn{
     position: absolute;
     font-family: "Garamond";
+    font-size: 200px;
+    float: left;
+    margin: 0 10px;
     color: white;
     border: medium none;
     background-image: none; 
     background: transparent;
     background-color: transparent;
     display: flex;
-    font-size : 24px;
 }
