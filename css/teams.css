@@ -53,7 +53,7 @@ body{
     margin: 0 100px;
     float: left;
     color: white;
-    border: medium none;
+    border: hidden;
     background-image: none; 
     background: transparent;
     background-color: transparent;
