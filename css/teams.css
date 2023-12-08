@@ -27,6 +27,7 @@ body{
     position: absolute;
     font-family: "Garamond";
     color: white;
+    margin: 0 10px;
     top: 25%;
     left: 0;
     width: 100%;
@@ -51,7 +52,6 @@ body{
     font-family: "Garamond";
     font-size: 200px;
     float: left;
-    margin: 0 10px;
     color: white;
     border: medium none;
     background-image: none; 
