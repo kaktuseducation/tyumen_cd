@@ -19,10 +19,9 @@
         <script>
             LIST = document.querySelector(".list");
             for (const team in TEAMS){
-                a = document.createElement('a');
-                LIST.appendChild(a);
+                a = document.createElement('li');
                 a.textContent = team;
-                a.className = team;
+                LIST.appendChild(a);
             }
             function FontSize() {
                 header = document.querySelector(".header");
