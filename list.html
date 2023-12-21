@@ -19,11 +19,10 @@
         <script>
             LIST = document.querySelector(".list");
             for (const team in TEAMS){
-                child = document.createElement('li');
                 btn = document.createElement('button');
-                LIST.appendChild(child);
                 LIST.appendChild(btn);
                 btn.textContent = team;
+                button.className = team;
             }
             function FontSize() {
                 header = document.querySelector(".header");
