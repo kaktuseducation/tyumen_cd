@@ -20,8 +20,10 @@
             LIST = document.querySelector(".list");
             for (const team in TEAMS){
                 child = document.createElement('li');
+                btn = document.createElement('button');
                 LIST.appendChild(child);
-                child.textContent = team;
+                LIST.appendChild(btn);
+                btn.textContent = team;
             }
             function FontSize() {
                 header = document.querySelector(".header");
@@ -31,7 +33,7 @@
                 hsize = Math.min(7*vh, 10*vw)
                 bsize = Math.min(4*vh, 5*vw)
                 header.style.fontSize = hsize + 'px';
-                list.style.fontSize = bsize + 'px';
+                list.style.fontSize = hsize + 'px';
             }
                         
             window.addEventListener('resize', FontSize);
