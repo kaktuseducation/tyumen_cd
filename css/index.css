@@ -24,13 +24,9 @@ body{
 }
 
 form{
-    position: absolute;
     width: 400px;
     margin: auto;
     margin-top: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 input{
@@ -63,3 +59,4 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+}
