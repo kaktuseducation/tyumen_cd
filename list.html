@@ -20,8 +20,10 @@
             LIST = document.querySelector(".list");
             for (const team in TEAMS){
                 child = document.createElement('li');
-                child.textContent = team;
+                button = document.createElement('button');
+                button.textContent = team;
                 LIST.appendChild(child);
+                LIST.appendChild(button);
             }
             function FontSize() {
                 header = document.querySelector(".header");
