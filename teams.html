@@ -24,10 +24,11 @@
         <script>
             localStorage.setItem('ref', 'teams.html');
             
-            team = TEAMS[team_name];
+            team_name = 'Alim'
             
-            document.querySelector('.about').textContent = team;
+            document.querySelector('.about').textContent = team_name;
             content = document.querySelector('.content');
+            team = TEAMS[team_name]
             members = team['Members'];
             for (i in members){
                 button = document.createElement('button');
