@@ -18,6 +18,8 @@
         <script src = 'js/teams.js'></script>
         <script>
             LIST = document.querySelector(".list");
+            a = document.createElement('ul');
+            LIST.appendChild(a);
             for (const team in TEAMS){
                 child = document.createElement('li');
                 child.textContent = team;
