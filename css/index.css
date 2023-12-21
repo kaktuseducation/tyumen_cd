@@ -28,6 +28,9 @@ form{
     width: 400px;
     margin: auto;
     margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input{
@@ -35,6 +38,9 @@ input{
     padding: 4px 10px;
     border: 0;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search{
@@ -42,6 +48,9 @@ input{
     font-family: "Garamond";
     color: black;
     width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .submit{
@@ -50,6 +59,9 @@ input{
     color: white;
     width: 70px;
     background-color: #d4a174;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .develop{
