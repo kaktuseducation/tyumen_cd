@@ -33,3 +33,10 @@ body{
     height: 10%;
     display: flex;
 }
+
+.btn{
+    position: absolute;
+    font-family: "Garamond";
+    color: white;
+    display: flex;
+}
