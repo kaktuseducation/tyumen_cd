@@ -37,7 +37,9 @@ body{
 .btn{
     position: absolute;
     font-family: "Garamond";
-    color: white;
+    font-size: 200px;
+    float: left;
+    color: black;
     display: flex;
     width: 300px;
     height: 100px;
