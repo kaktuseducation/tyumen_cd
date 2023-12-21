@@ -24,24 +24,28 @@ body{
 }
 
 form{
+    position: absolute;
     width: 400px;
     margin: auto;
     margin-top: 250px;
 }
 
 input{
+    position: absolute;
     padding: 4px 10px;
     border: 0;
     font-size: 16px;
 }
 
 .search{
+    position: absolute;
     font-family: "Garamond";
     color: black;
     width: 75%;
 }
 
 .submit{
+    position: absolute;
     font-family: "Garamond";
     color: white;
     width: 70px;
