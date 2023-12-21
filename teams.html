@@ -33,14 +33,14 @@
             
             //document.querySelector('.about').textContent = team_name;
             //content = document.querySelector('.content');
-            //team = TEAMS[team_name];
-            //members = team['Members'];
-            //for (i in members){
-                //button = document.createElement('button');
-                //button.textContent = members[i];
-                //content.appendChild(button);
-                //button.className = 'btn';
-            //}
+            team = TEAMS[teams];
+            members = team['Members'];
+            for (i in members){
+                button = document.createElement('button');
+                button.textContent = members[i];
+                content.appendChild(button);
+                button.className = 'btn';
+            }
 
             function FontSize() {
                 header = document.querySelector(".header");
