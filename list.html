@@ -18,12 +18,12 @@
         <script src = 'js/teams.js'></script>
         <script>
             LIST = document.querySelector(".list");
-            a = document.createElement('ul');
-            LIST.appendChild(a);
             for (const team in TEAMS){
                 child = document.createElement('li');
                 child.textContent = team;
                 LIST.appendChild(child);
+                a = document.createElement('ul');
+                LIST.appendChild(a);
             }
             function FontSize() {
                 header = document.querySelector(".header");
