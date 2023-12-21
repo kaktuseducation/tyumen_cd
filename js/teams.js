@@ -33,4 +33,25 @@ TEAMS = {
     'SNS' : ['instagram', 'telegram', 'youtube'],
   },
 
+  'Obsession' : {
+    'Name' : 'Obsession [əbˈsɛ́ʃᵊn]',
+    'Birthday' : '08.08.2022',
+    'Fandom' : ' ',
+    'Debut cover' : 'BVNDT - VENOM',
+    'Official color' : ['red'],
+    'Members' : ['Amina', 'Helli', 'Q', 'Eunji', 'Nika', 'Nastya'],
+    'About group' : ' ',
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
+
+  'Stars up!' : {
+    'Name' : 'Stars up! [stɑːz ʌ́p!]',
+    'Birthday' : '07.09.2023',
+    'Fandom' : ' ',
+    'Debut cover' : ' ',
+    'Official color' : ' ',
+    'Members' : ['Torry', 'Myun', 'Khosu', 'Busya', 'Misako', 'Seonha', 'Miku', 'Luna'],
+    'About group' : ' ',
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+
 }
