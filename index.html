@@ -25,8 +25,7 @@
         
         <script>
             function FontSize() {
-                search = document.querySelector(".search");
-                submit = document.querySelector(".submit");
+                form = document.querySelector("form");
                 header = document.querySelector(".header");
                 develop = document.querySelector(".develop");
                 var vh = window.innerHeight/100;
@@ -35,8 +34,7 @@
                 bsize = Math.min(4*vh, 5*vw)
                 header.style.fontSize = hsize + 'px';
                 develop.style.fontSize = bsize + 'px';
-                search.style.fontSize = bsize + 'px';
-                submit.style.fontSize = bsize + 'px';
+                form.style.fontSize = bsize + 'px';
             }
                         
             window.addEventListener('resize', FontSize);
