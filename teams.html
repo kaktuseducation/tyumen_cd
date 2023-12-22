@@ -25,6 +25,7 @@
             localStorage.setItem('ref', 'teams.html');
 
             team_name = 'Alim'; //Получаем название команды
+            team = TEAMS[team_name];
             //document.querySelector('.content').textContent = TEAMS[teams];
             
             document.querySelector('.about').textContent = team_name; //Выводим название команды
@@ -44,9 +45,8 @@
             dc = document.createElement('a');
             dc.textContent = debut;
             content.appendChild(dc);
-            
-            team = TEAMS[team_name]; //Выводим участников
-            members = team['Members']; 
+             
+            members = team['Members']; //Выводим участников
             for (i in members){ 
                 button = document.createElement('button');
                 button.textContent = members[i];
