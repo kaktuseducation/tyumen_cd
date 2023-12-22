@@ -46,7 +46,51 @@ body{
     display: flex;
 }
 
+.hbd{
+    position: absolute;
+    display: flex;
+}
+
+.fd{
+    position: absolute;
+    display: flex;
+}
+
+.dc{
+    position: absolute;
+    display: flex;
+}
+
+.color_btn{
+    position: absolute;
+    font-family: "Garamond";
+    font-size: 200px;
+    float: left;
+    color: white;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    display: flex;
+}
+
 .btn{
+    position: absolute;
+    font-family: "Garamond";
+    font-size: 200px;
+    float: left;
+    color: white;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    display: flex;
+}
+
+.ag{
+    position: absolute;
+    display: flex;
+}
+
+.snsbtn{
     position: absolute;
     font-family: "Garamond";
     font-size: 200px;
