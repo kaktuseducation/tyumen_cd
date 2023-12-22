@@ -34,7 +34,7 @@
             birthday = team['Birthday']; //Выводим др команды
             hbd = document.createElement('a');
             hbd.textContent = birthday;
-            content.appendChild(birthday);
+            content.appendChild(hbd);
 
             fandom = team['Fandom']; //Выводим фд команды
             fd = document.createElement('a');
@@ -45,6 +45,13 @@
             dc = document.createElement('a');
             dc.textContent = debut;
             content.appendChild(dc);
+
+            colors = team['Official color']; //Выводим официальный цвет
+            for (i in colors){ 
+                button = document.createElement('button');
+                button.textContent = color[i];
+                content.appendChild(button);
+                button.className = 'color_btn';
              
             members = team['Members']; //Выводим участников
             for (i in members){ 
@@ -52,6 +59,19 @@
                 button.textContent = members[i];
                 content.appendChild(button);
                 button.className = 'btn';
+            }
+                
+            group = team['About group']; //Выводим информацию о команде
+            ag = document.createElement('a');
+            ag.textContent = group;
+            content.appendChild(ag);
+
+            net = team['SNS']; //Выводим соцсети
+            for (i in net){ 
+                sns = document.createElement('SNS');
+                button.textContent = net[i];
+                content.appendChild(button);
+                button.className = 'snsbtn';
             }
 
             function FontSize() {
