@@ -24,14 +24,20 @@
         <script>
             localStorage.setItem('ref', 'teams.html');
 
-            team_name = 'Alim';
+            team_name = 'Alim'; //Получаем название команды
             //document.querySelector('.content').textContent = TEAMS[teams];
             
-            document.querySelector('.about').textContent = team_name;
+            document.querySelector('.about').textContent = team_name; //Выводим название команды
             content = document.querySelector('.content');
-            team = TEAMS[team_name];
-            members = team['Members'];
-            for (i in members){
+            
+            birthday = team['Birthday'] //Выводим др команды
+            hbd = document.createElement('a');
+            hbd.textContent = birthday;
+            content.appendChild(birthday);
+            
+            team = TEAMS[team_name]; //Выводим участников
+            members = team['Members']; 
+            for (i in members){ 
                 button = document.createElement('button');
                 button.textContent = members[i];
                 content.appendChild(button);
