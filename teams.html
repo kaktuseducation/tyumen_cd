@@ -48,10 +48,10 @@
 
             colors = team['Official color']; //Выводим официальный цвет
             for (i in colors){ 
-                button = document.createElement('button');
-                button.textContent = color[i];
-                content.appendChild(button);
-                button.className = 'color_btn';
+                cbtn = document.createElement('button');
+                cbtn.textContent = colors[i];
+                content.appendChild(cbtn);
+                cbtn.className = 'color_btn';
             }
              
             members = team['Members']; //Выводим участников
@@ -70,9 +70,9 @@
             net = team['SNS']; //Выводим соцсети
             for (i in net){ 
                 sns = document.createElement('SNS');
-                button.textContent = net[i];
-                content.appendChild(button);
-                button.className = 'snsbtn';
+                snsbtn.textContent = net[i];
+                content.appendChild(snsbtn);
+                snsbtn.className = 'snsbtn';
             }
 
             function FontSize() {
