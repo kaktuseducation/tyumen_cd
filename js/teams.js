@@ -101,7 +101,7 @@ TEAMS = {
 
   'Wings of passion' : {
     'Name' : 'Wings of passion [wɪŋz ɒv ˈpæʃᵊn]',
-    'Birthday : 29.09.2022
+    'Birthday' : '29.09.2022',
     'Fandom' : ' ',
     'Debut cover' : 'TEN & WINWIN - LOVELY',
     'Official color' : ['black', 'gray', 'white'],
