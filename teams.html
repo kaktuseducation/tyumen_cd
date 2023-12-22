@@ -30,10 +30,20 @@
             document.querySelector('.about').textContent = team_name; //Выводим название команды
             content = document.querySelector('.content');
             
-            birthday = team['Birthday'] //Выводим др команды
+            birthday = team['Birthday']; //Выводим др команды
             hbd = document.createElement('a');
             hbd.textContent = birthday;
             content.appendChild(birthday);
+
+            fandom = team['Fandom']; //Выводим фд команды
+            fd = document.createElement('a');
+            fd.textContent = fandom;
+            content.appendChild(fd);
+
+            debut = team['Debut cover']; //Выводим дк команды
+            dc = document.createElement('a');
+            dc.textContent = debut;
+            content.appendChild(dc);
             
             team = TEAMS[team_name]; //Выводим участников
             members = team['Members']; 
