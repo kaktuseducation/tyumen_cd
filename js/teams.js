@@ -49,97 +49,76 @@ TEAMS = {
     'Birthday' : '07.09.2023',
     'Fandom' : ' ',
     'Debut cover' : ' ',
-    'Official color' : ' ',
+    'Official color' : [' '],
     'Members' : ['Torry', 'Myun', 'Khosu', 'Busya', 'Misako', 'Seonha', 'Miku', 'Luna'],
     'About group' : ' ',
     'SNS' : ['instagram', 'telegram', 'youtube'],
   },
 
-  'Stellare' :
-  `Name : Stellare [Stellare] \n
-  Birthday : 10.08.2023 \n
-  Fandom : Stellnes\n
-  Debut cover : \n
-  Official color : \n
-  Members : Ayun \n
-            Roa \n
-            Minty \n
-            Haotin \n
-  About group : \n
-  SNS : \n `,
+  'Stellare' : {
+    'Name' : 'Stellare [Stellare]',
+    'Birthday' : '10.08.2023',
+    'Fandom' : 'Stellnes',
+    'Debut cover' : ' ',
+    'Official color' : [' '],
+    'Members' : ['Ayun', 'Roa',  'Minty', 'Haotin'],
+    'About group' : ' ', 
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
 
-  'The girlz' :
-  `Name : The girlz [ðə gi̇́rlz] \n
-  Birthday : 08.09.2021 \n
-  Fandom : \n
-  Debut cover : \n
-  Official color : blue \n
-  Members : RM \n
-            Leco \n
-            Minci \n
-            Ari \n
-            Icy \n
-            Renata \n
-            Darcy \n      
-  About group : \n
-  SNS : \n `,
+  'The girlz' : {
+    'Name' : 'The girlz [ðə gi̇́rlz]',
+    'Birthday' : '08.09.2021',
+    'Fandom' : ' ',
+    'Debut cover' : ' ',
+    'Official color' : ['blue'],
+    'Members' : ['RM', 'Leco', 'Minci', 'Ari', 'Icy', 'Renata', 'Darcy'],   
+    'About group' : ' ' ,
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
 
-  'W2H' :
-  `Name : W2H [wiːtu:éɪʧ] \n
-  Birthday : 15.01.2023 \n
-  Fandom : Devils [dɛ́vᵊlz] \n
-  Debut cover : STRAY KIDS - THUNDEROUS \n
-  Official color : black, red \n
-  Members : Tate \n
-            Sato \n
-            Lexus \n
-            Hani \n
-            Mins \n
-            ReiLi \n
-            Lin \n
-            Mellet \n
-  About group : \n
-  SNS : \n `,
+  'W2H' : {
+    'Name' : 'W2H [wiːtu:éɪʧ]',
+    'Birthday' : '15.01.2023',
+    'Fandom' : 'Devils [dɛ́vᵊlz]',
+    'Debut cover' : 'STRAY KIDS - THUNDEROUS',
+    'Official color' : ['black', 'red'],
+    'Members' : ['Tate', 'Sato', 'Lexus', 'Hani', 'Mins', 'ReiLi', 'Lin', 'Mellet'], 
+    'About group' : ' ',
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
 
-  'Werise' :
-  `Name : Werise [Weri̇́se] \n
-  Birthday : 07.10.2021 \n
-  Fandom : \n
-  Debut cover : LE SSERAFIM - ANTIFRIAGLE \n
-  Official color : blue, white \n
-  Members : Vishes \n
-            LU \n
-            Nuta \n
-            Aizhan \n
-            Lana \n
-            Fisa \m
-  About group : \n
-  SNS : \n `,
+  'Werise' : {
+    'Name' : 'Werise [Weri̇́se]',
+    'Birthday' : '07.10.2021',
+    'Fandom' : ' ',
+    'Debut cover' : 'LE SSERAFIM - ANTIFRIAGLE',
+    'Official color' : ['blue', 'white'],
+    'Members' : ['Vishes', 'LU', 'Nuta', 'Aizhan', 'Lana', 'Fisa'],
+    'About group' : ' ',
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
 
-    'Wings of passion' :
-  `Name : Wings of passion [wɪŋz ɒv ˈpæʃᵊn] \n
-  Birthday : 29.09.2022 \n
-  Fandom : \n
-  Debut cover : TEN & WINWIN - LOVELY \n
-  Official color : black, gray, white \n
-  Members : Alice Lehodey \n
-  About group : \n
-  SNS : \n `,
+  'Wings of passion' : {
+    'Name' : 'Wings of passion [wɪŋz ɒv ˈpæʃᵊn]',
+    'Birthday : 29.09.2022
+    'Fandom' : ' ',
+    'Debut cover' : 'TEN & WINWIN - LOVELY',
+    'Official color' : ['black', 'gray', 'white'],
+    'Members' : ['Alice Lehodey'],
+    'About group' : ' ',
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
 
-  'Wisteria' :
-  `Name : Wisteria [wɪˈstɪə́riə] \n
-  Birthday : 07.03.2023 \n
-  Fandom : \n
-  Debut cover : NEWJEANS - OMG \n
-  Official color : light purple \n
-  Members : Mint \n
-            Raf \n
-            Mona \n
-            Evy \n
-            Wqouip \n
-            Alisqex \n
-            Vita \n
-  About group : \n
-  SNS : \n `,
+  'Wisteria' : {
+    'Name' : 'Wisteria [wɪˈstɪə́riə]',
+    'Birthday' : '07.03.2023',
+    'Fandom' : ' ' ,
+    'Debut cover' : 'NEWJEANS - OMG',
+    'Official color' : ['light purple'],
+    'Members' : ['Mint', 'Raf', 'Mona', 'Evy', 'Wqouip', 'Alisqex', 'Vita'],
+    'About group' : ' ',
+    'SNS' : ['instagram', 'telegram', 'youtube'],
+  },
 
 }
